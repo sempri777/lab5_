@@ -1,6 +1,6 @@
 import { buildSchema } from 'graphql';
 import express from 'express';
-import { graphqlHTTP } from 'express-graphql'; // Исправленный импорт
+import { graphqlHTTP } from 'express-graphql'; 
 
 let schema = buildSchema(`
   type Query {
@@ -17,7 +17,7 @@ let app = express();
 app.use('/graphql', graphqlHTTP({
   schema: schema,
   rootValue: root,
-  graphiql: true // Веб-інтерфейс
+  graphiql: true 
 }));
 
 app.listen(4003);
