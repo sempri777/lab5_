@@ -1,0 +1,240 @@
+{
+  "{\"filename\":\"C:/Users/PC/server1.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/PC\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/PC/server1.js",
+      "filenameRelative": "C:/Users/PC/server1.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server1.js",
+      "sourceFileName": "server1.js",
+      "sourceRoot": "C:/Users/PC",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/PC",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server1"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar express = require('express');\nvar app = express();\n\napp.get('/', function (req, res) {\n  res.send('GET response from Server 1');\n});\n\napp.listen(4001, function () {\n  console.log('Server 1 is up and running on port 4001!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlcjEuanMiXSwibmFtZXMiOlsiZXhwcmVzcyIsInJlcXVpcmUiLCJhcHAiLCJnZXQiLCJyZXEiLCJyZXMiLCJzZW5kIiwibGlzdGVuIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNQSxVQUFVQyxRQUFRLFNBQVIsQ0FBaEI7QUFDQSxJQUFNQyxNQUFNRixTQUFaOztBQUVBRSxJQUFJQyxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQ3pCQSxNQUFJQyxJQUFKLENBQVMsNEJBQVQ7QUFDRCxDQUZEOztBQUlBSixJQUFJSyxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFNO0FBQ3JCQyxVQUFRQyxHQUFSLENBQVksMENBQVo7QUFDRCxDQUZEIiwiZmlsZSI6InNlcnZlcjEuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvUEMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpO1xyXG5jb25zdCBhcHAgPSBleHByZXNzKCk7XHJcblxyXG5hcHAuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7XHJcbiAgcmVzLnNlbmQoJ0dFVCByZXNwb25zZSBmcm9tIFNlcnZlciAxJyk7XHJcbn0pO1xyXG5cclxuYXBwLmxpc3Rlbig0MDAxLCAoKSA9PiB7XHJcbiAgY29uc29sZS5sb2coJ1NlcnZlciAxIGlzIHVwIGFuZCBydW5uaW5nIG9uIHBvcnQgNDAwMSEnKTtcclxufSk7XHJcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server1.js"
+      ],
+      "names": [
+        "express",
+        "require",
+        "app",
+        "get",
+        "req",
+        "res",
+        "send",
+        "listen",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;AACA,IAAMC,MAAMF,SAAZ;;AAEAE,IAAIC,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzBA,MAAIC,IAAJ,CAAS,4BAAT;AACD,CAFD;;AAIAJ,IAAIK,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,0CAAZ;AACD,CAFD",
+      "file": "server1.js",
+      "sourceRoot": "C:/Users/PC",
+      "sourcesContent": [
+        "const express = require('express');\r\nconst app = express();\r\n\r\napp.get('/', (req, res) => {\r\n  res.send('GET response from Server 1');\r\n});\r\n\r\napp.listen(4001, () => {\r\n  console.log('Server 1 is up and running on port 4001!');\r\n});\r\n"
+      ]
+    },
+    "mtime": 1743932219114
+  }
+}
