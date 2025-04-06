@@ -8,7 +8,7 @@ const schema = new GraphQLSchema({
     fields: {
       foo: {
         type: GraphQLInt,
-        resolve: () => foo // Функція resolve обов'язкова
+        resolve: () => foo 
       }
     }
   })
